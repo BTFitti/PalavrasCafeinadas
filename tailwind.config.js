@@ -5,7 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-bg': "url('/src/assets/cafes.png')",
+      },
+      height:{
+        '559': '739px'
+      },
+      colors:{
+        'hr': "#B2784A"
+      }
+    },
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'header': "#8F542E",
+      'intro': "#EBDACC"
+    })
   },
   plugins: [],
 }
