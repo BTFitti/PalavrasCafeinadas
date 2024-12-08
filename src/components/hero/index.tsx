@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <div className="bg-[url('/src/assets/BackGround.png')] bg-cover bg-center h-screen bg-no-repeat flex items-center justify-center  relative ">
+    <div className="bg-[url('/src/assets/BackGround.png')] bg-cover bg-center h-screen bg-no-repeat flex  ">
       {/*Div do conteudo */}
       <div className="flex flex-col h-screen w-full ml-28 pt-28">
 
@@ -13,7 +13,7 @@ export function Hero() {
           </span>
         </div>
 
-        <button className="bg-header p-5 font-bold text-2xl rounded-xl text-white uppercase w-80">
+        <button className="bg-header p-5 font-bold text-2xl rounded-xl text-white uppercase w-80 hover:bg-hr-hover transition-all duration-700 ">
           Venha conhecer →
         </button>
 
