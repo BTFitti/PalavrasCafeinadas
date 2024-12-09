@@ -13,7 +13,7 @@ export function Hero() {
           </span>
         </div>
 
-        <button className="bg-header p-5 font-bold text-2xl rounded-xl text-white uppercase w-80 hover:bg-hr-hover transition-all duration-700 ">
+        <button className="bg-header p-5 font-bold text-2xl rounded-xl text-white uppercase w-80 hover:bg-hr-hover transition-all duration-700  ">
           Venha conhecer →
         </button>
 

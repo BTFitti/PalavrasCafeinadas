@@ -12,7 +12,8 @@ export default {
       colors:{
         'hr': "#B2784A",
         'hr-hover': "#57290B",
-        'abt-after': "#FBC9A8"
+        'abt-after': "#FBC9A8",
+        'cafeteria': "#80451F"
       }
     },
     backgroundColor: theme => ({
