@@ -1,6 +1,6 @@
 export function Cafeteria() {
   return (
-    <div className="h-screen bg-cafeteria  pt-52 pb-32 w-full relative select-none ">
+    <div id="cafeteria" className="h-screen bg-cafeteria  pt-52 pb-32 w-full relative select-none ">
       <div className="w-full  absolute -top-24">
         <img
           src="/src/assets/cafeonda.png"

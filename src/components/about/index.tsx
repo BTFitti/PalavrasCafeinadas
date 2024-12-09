@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <div className=" w-full h-screen">
+    <div id="about" className=" w-full h-screen">
       <div className="ml-28 mr-44  h-full pt-28 flex justify-between ">
         <div className="w-1/2 h-full ">
           <h1 className="text-5xl px-2 max-w-fit z-[0] relative flex after:absolute after:w-full after:block after:left-0 after:bottom-0 after:bg-abt-after after:z-[-1] after:h-[21px]">
