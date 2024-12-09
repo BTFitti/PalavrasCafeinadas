@@ -6,12 +6,12 @@ import { BsFacebook } from "react-icons/bs";
 
 export function Contacts() {
   return (
-    <div id="contacts" className=" p-32 h-full w-full bg-contacts-bg ">
-      <h1 className="text-5xl px-2 mb-9 max-w-fit z-[0] relative after:absolute after:w-full after:block after:left-0 after:bottom-0 after:bg-abt-after after:z-[-1] after:h-[21px]">
+    <div  className=" p-32 h-full w-full bg-contacts-bg mb-24 ">
+      <h1 id="contacts" className="text-5xl px-2 mb-20 max-w-fit z-[0] relative after:absolute after:w-full after:block after:left-0 after:bottom-0 after:bg-abt-after after:z-[-1] after:h-[21px]">
         ENTRE EM CONTATO
       </h1>
       {/*Area do formulário */}
-      <div className="flex w-full max-w-full shadow-2xl">
+      <div  className="flex w-full max-w-full shadow-2xl rounded-xl ml-5">
         {/* //div da parte esquerda */}
         <div className="bg-header w-[50%] h-full flex flex-col min-w-96 p-8 rounded-s-lg ">
           <ul className=" w-full max-w-full text-2xl pr-9">
