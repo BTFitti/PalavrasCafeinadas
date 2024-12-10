@@ -6,14 +6,17 @@ import { BsFacebook } from "react-icons/bs";
 
 export function Contacts() {
   return (
-    <div  className=" p-32 h-full w-full bg-contacts-bg ">
-      <h1 id="contacts" className="text-5xl px-2 mb-20 max-w-fit z-[0] relative after:absolute after:w-full after:block after:left-0 after:bottom-0 after:bg-abt-after after:z-[-1] after:h-[21px]">
+    <div className=" md:p-32 p-10 h-full w-full bg-contacts-bg ">
+      <h1
+        id="contacts"
+        className="text-3xl md:text-5xl px-2 mb-20 max-w-fit z-[0] relative after:absolute after:w-full after:block after:left-0 after:bottom-0 after:bg-abt-after after:z-[-1] after:h-[21px]"
+      >
         ENTRE EM CONTATO
       </h1>
       {/*Area do formulário */}
-      <div  className="flex w-full max-w-full shadow-2xl rounded-xl ml-5">
+      <div className="flex w-full max-w-full shadow-2xl rounded-xl md:ml-5">
         {/* //div da parte esquerda */}
-        <div className="bg-header w-[50%] h-full flex flex-col min-w-96 p-8 rounded-s-lg ">
+        <div className="bg-header w-[50%] h-full md:flex flex-col hidden min-w-96 p-8 rounded-s-lg ">
           <ul className=" w-full max-w-full text-2xl pr-9">
             <li className="flex gap-3 pb-3 ">
               <BsFillTelephoneFill className="bg-white  h-10 w-10 p-2 rounded-xl text-header-txt" />
@@ -60,23 +63,27 @@ export function Contacts() {
         </div>
 
         {/*Div direita (form) */}
-        <form className="bg-slate-500/15 flex flex-col items-start w-full rounded-e-lg px-14 pt-24">
+        <form className="bg-slate-500/15 flex flex-col items-start w-full md:rounded-e-lg rounded-lg md:px-14 px-5 pt-10">
           {/*div dos campos do form */}
-          <div className="flex w-full flex-col gap-4">
-            <label className="text-4xl font-semibold">Nome</label>
+          <div className="flex md:w-full w-full flex-col gap-4">
+            <label className="md:text-4xl text-2xl font-semibold">Nome</label>
             <input
               type="text"
-              className="p-5 rounded-xl border-hr border-2 outline-none "
+              className="md:p-5 md:h-16 h-10 rounded-xl border-hr border-2 outline-none "
             />
-            <label className="text-4xl  pt-5 font-semibold">Email</label>
+            <label className="md:text-4xl text-2xl pt-5 font-semibold">
+              Email
+            </label>
             <input
               type="email"
-              className="p-5 rounded-xl border-hr border-2 outline-none"
+              className="md:p-5 md:h-16 h-10 rounded-xl border-hr border-2 outline-none"
             />
 
-            <label className="text-4xl pt-5 font-semibold">Mensagem</label>
+            <label className="md:text-4xl text-2xl pt-5 font-semibold">
+              Mensagem
+            </label>
             <textarea className="rounded-xl p-4 border-hr border-2 outline-none"></textarea>
-            <button className="p-5 mt-12 bg-header-txt hover:bg-darkcoffee transition-all duration-700 w-2/5 rounded-lg text-2xl text-white font-semibold shadow-xl">
+            <button className=" p-3 mt-12 mb-4 bg-header-txt hover:bg-darkcoffee transition-all duration-700 md:w-2/5 rounded-lg text-xl text-white font-semibold shadow-xl">
               ENVIAR MENSAGEM →
             </button>
           </div>

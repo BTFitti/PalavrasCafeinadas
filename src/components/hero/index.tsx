@@ -1,14 +1,14 @@
 export function Hero() {
   return (
-    <div className="bg-[url('/src/assets/BackGround.png')] bg-cover bg-center h-screen bg-no-repeat flex  ">
+    <div className="bg-[url('/src/assets/BackGround.png')] bg-cover bg-center h-screen bg-no-repeat flex pt-40">
       {/*Div do conteudo */}
-      <div className="flex flex-col h-screen w-full ml-28 pt-28">
+      <div className="flex flex-col h-screen w-full pt-12 px-4  md:ml-28 md:pt-28">
 
-        <div className= "w-7/12 text-8xl flex leading-snug font-bold text-white pb-6">
+        <div className= "w-full md:w-7/12 text-4xl md:text-8xl flex leading-snug font-bold text-white pb-6">
           <span>Leia acompanhado de uma culinária de qualidade.</span>
         </div>
 
-        <div className="w-1/3 text-3xl flex leading-snug  text-white pb-10">
+        <div className=" w-full font-light text-zinc-200 md:w-1/3 text-3xl md:text-3xl flex leading-snug  md:text-white pb-10">
           <span> Aonde a paixão por livros e o amor por café sempre tem lugar á mesa.
           </span>
         </div>
