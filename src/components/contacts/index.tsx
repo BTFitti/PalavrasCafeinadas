@@ -76,7 +76,7 @@ export function Contacts() {
 
             <label className="text-4xl pt-5 font-semibold">Mensagem</label>
             <textarea className="rounded-xl p-4 border-hr border-2 outline-none"></textarea>
-            <button className="p-5 mt-12 bg-header-txt w-2/5 rounded-lg text-2xl text-white font-semibold shadow-xl">
+            <button className="p-5 mt-12 bg-header-txt hover:bg-darkcoffee transition-all duration-700 w-2/5 rounded-lg text-2xl text-white font-semibold shadow-xl">
               ENVIAR MENSAGEM →
             </button>
           </div>
